@@ -2,5 +2,5 @@ services:
   - type: web
     name: resume-ai-system
     env: python
-    buildCommand: python build.py
-    startCommand: streamlit run app.py --server.port=$PORT --server.headless=true --server.runOnSave=false --logger.level=info
+    buildCommand: python -m pip install --upgrade pip && python -m pip install -r requirements.txt && python -m nltk.downloader punkt stopwords
+    startCommand: python -m streamlit run app.py --server.port=$PORT --server.headless=true --server.runOnSave=false
