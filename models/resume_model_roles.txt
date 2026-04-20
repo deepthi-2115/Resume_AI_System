@@ -1,1 +1,1 @@
-UX Designer,DevOps Engineer,Data Scientist,Software Engineer,Product Manager
+UX Designer,Software Engineer,Product Manager,Data Scientist,DevOps Engineer
